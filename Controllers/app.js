@@ -72,5 +72,8 @@ app.run(function ($rootScope, $location) {
   $rootScope.$on('$error', function (event, error) {
       console.error('Lỗi toàn cục:', error);
       
+
+
+      
   });
 });
